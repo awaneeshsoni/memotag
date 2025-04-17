@@ -72,7 +72,7 @@ const Hero = () => {
         >
           <div className="bg-white rounded-3xl shadow-xl p-4 max-w-md w-full h-80 flex items-center justify-center">
             <Image
-              src="/STlogo.svg"
+              src="/STL.svg"
               alt="Dashboard Preview"
               width={300}
               height={300}

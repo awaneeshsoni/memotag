@@ -65,13 +65,13 @@ const Solution: React.FC = () => {
               </div>
 
               <div className="flex justify-between items-end mt-auto">
-                <Image
+                {/* <Image
                   src={feature.image}
                   alt={feature.title}
                   width={40}
                   height={40}
                   className="object-contain"
-                />
+                /> */}
                 <button className="text-blue-600 text-sm font-medium hover:underline">
                   Read More →
                 </button>
