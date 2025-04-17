@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
         setError(null);
 
         try {
-            const { data, error } = await supabase.from("contact_form_submissions").insert([formData]);
+            const { error } = await supabase.from("contact_form_submissions").insert([formData]);
             if (error) {
                 console.error("Supabase error:", error);
                 setError("Something went wrong. Please try again.");

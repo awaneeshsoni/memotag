@@ -1,7 +1,6 @@
 'use client';
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import CTA from './Waitlist';
 import Image from 'next/image';
 import Waitlist from './Waitlist';
 
